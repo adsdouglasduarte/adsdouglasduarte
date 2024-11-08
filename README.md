@@ -1,6 +1,18 @@
 ## Olá, Seja bem-vindo! Sou Ads Douglas Duarte. 🧑🏽‍🚀
 
-![Ads Douglas Duarte GitHub stats](https://github-readme-stats.vercel.app/api?username=adsdouglasduarte&show_icons=true&theme=radical)
+<table>
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=adsdouglasduarte&show_icons=true&theme=radical" alt="Ads Douglas Duarte GitHub stats"/>
+    </td>
+    <td>
+      <a href="https://github.com/anuraghazra/convoychat">
+        <img height="200" align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=adsdouglasduarte&layout=compact&langs_count=8&card_width=320" />
+      </a>
+    </td>
+  </tr>
+</table>
+
 
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:adsdouglasduarte@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/douglas-duarte-55048530b)
@@ -25,4 +37,5 @@
 1. [Power Plus Life](https://powerpluslife.vercel.app/)
 2. [Rotas Relatos](https://rotas-relatos.vercel.app/)
 3. [Ana e Manu Confeitaria](https://anaemanuconfeitaria.vercel.app/)
+
 
