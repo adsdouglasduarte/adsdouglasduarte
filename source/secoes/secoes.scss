@@ -1,0 +1,46 @@
+@use '../config/corthemes';
+
+.main-meio {
+    display: flex;
+    max-width: 500px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+    form {
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        
+        button {
+            font-weight: bold;
+            background-color: corthemes.$corTerciaria;
+            color: corthemes.$corSecundaria;
+        &:hover{
+            background-color: green;
+        }}
+    }
+
+    .meio-filho h2 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        color: corthemes.$corQuarta;
+    }
+
+    input {
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px corthemes.$corTerciaria solid;
+        background-color: corthemes.$corSecundaria;
+        color: corthemes.$corQuinta;
+    }
+
+    label {
+        color: corthemes.$corQuarta;
+    }
+
+
+}
+
