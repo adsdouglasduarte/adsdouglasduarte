@@ -1,0 +1,9 @@
+@use './config/reset';
+@use 'header';
+@use 'section';
+@use 'mediaQuery';
+@use './config/themes';
+
+html {
+    scroll-behavior: smooth;
+}
