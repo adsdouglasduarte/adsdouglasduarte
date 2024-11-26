@@ -4,6 +4,8 @@
 @use 'mediaQuery';
 @use './config/themes';
 
+/*deixar suave scroll*/
+
 html {
     scroll-behavior: smooth;
 }
