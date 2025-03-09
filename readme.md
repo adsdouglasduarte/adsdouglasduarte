@@ -74,5 +74,7 @@ mjml input.mjml -o output.html
 
 Sinta-se à vontade para contribuir enviando **pull requests** ou abrindo **issues** para sugestões e melhorias.
 
+## Licença
 
+Este projeto está sob a licença MIT.
 
