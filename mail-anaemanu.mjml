@@ -3,7 +3,7 @@
     <!-- Logo -->
     <mj-section background-color="#ffffff">
       <mj-column width="100%">
-        <mj-image href="https://www.instagram.com/ana.manu._confeitaria" src="./banner_inicial.png" alt="Ana & Manu Logo" align="center" width="150px" padding="10px"></mj-image>
+        <mj-image href="https://www.instagram.com/ana.manu._confeitaria" src="./banner.png" alt="Ana & Manu Logo" align="center" padding="10px"></mj-image>
       </mj-column>
     </mj-section>
 
