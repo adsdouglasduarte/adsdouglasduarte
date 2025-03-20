@@ -1,0 +1,69 @@
+<mjml>
+  <mj-body background-color="#ffffff">
+    <!-- Logo -->
+    <mj-section background-color="#ffffff">
+      <mj-column width="100%">
+        <mj-image href="https://www.instagram.com/ana.manu._confeitaria" src="./banner_inicial.png" alt="Ana & Manu Logo" align="center" width="150px" padding="10px"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <!-- Menu Navbar -->
+    <mj-section background-color="#f7f7f7" padding="10px 0">
+      <mj-column width="100%">
+        <mj-navbar base-url="https://anaemanu.com" hamburger="hamburger" ico-color="#333333">
+          <mj-navbar-link href="https://anaemanu.com/home" color="#333333">Home</mj-navbar-link>
+          <mj-navbar-link href="https://anaemanu.com/blog" color="#333333">Blog</mj-navbar-link>
+          <mj-navbar-link href="https://anaemanu.com/store" color="#333333">Store</mj-navbar-link>
+        </mj-navbar>
+      </mj-column>
+    </mj-section>
+
+    <!-- Blog Introduction Section -->
+    <mj-section background-color="#f5f5f5" padding="20px 0">
+      <mj-column width="100%">
+        <mj-text align="center" color="#333333" font-size="24px" font-weight="bold" padding="0 0 20px 0">
+          Bem-vindo ao Blog Ana & Manu Confeitaria
+        </mj-text>
+        <mj-text align="center" color="#666666" font-size="16px" padding="0 20px">
+          Descubra as delícias que preparamos especialmente para você! Clique nas imagens abaixo para conferir nossos produtos e siga-nos no Instagram para mais novidades.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Foto de Copos da Felicidade -->
+    <mj-section background-color="#ffffff" padding="20px 0">
+      <mj-column width="100%">
+        <mj-text align="center" color="#fa8739" font-size="20px" font-weight="bold" padding="10px 0">
+          Copos da Felicidade
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="20px 0">
+      <mj-column width="20%">
+        <mj-image href="https://www.instagram.com/ana.manu._confeitaria" src="./CP_MORANGO_TRUFADO.jpg" alt="Copo 1" border="none" width="200px" padding="10px"></mj-image>
+      </mj-column>
+      <mj-column width="20%">
+        <mj-image href="https://www.instagram.com/ana.manu._confeitaria" src="./CP_TENTACAO_DOURADA.jpg" alt="Copo 2" border="none" width="200px" padding="10px"></mj-image>
+      </mj-column>
+      <mj-column width="20%">
+        <mj-image href="https://www.instagram.com/ana.manu._confeitaria" src="./CP_LIMÃO_TROPICAL.jpg" alt="Copo 3" border="none" width="200px" padding="10px"></mj-image>
+      </mj-column>
+      <mj-column width="20%">
+        <mj-image href="https://www.instagram.com/ana.manu._confeitaria" src="./CP_TESOURO_BRANCO.jpg" alt="Copo 4" border="none" width="200px" padding="10px"></mj-image>
+      </mj-column>
+      <mj-column width="20%">
+        <mj-image href="https://www.instagram.com/ana.manu._confeitaria" src="./CP_UVA_DOS_SONHOS.jpg" alt="Copo 5" border="none" width="200px" padding="10px"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="#f7f7f7" padding="20px 0">
+      <mj-column width="100%">
+        <mj-text align="center" color="#333333" font-size="14px">
+          Siga-nos no Instagram: <a href="https://www.instagram.com/ana.manu._confeitaria" style="color: #fa8739;">@ana.manu._confeitaria</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
