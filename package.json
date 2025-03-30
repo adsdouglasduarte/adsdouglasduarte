@@ -1,0 +1,15 @@
+{
+  "name": "adsdouglasduarte",
+  "version": "1.0.0",
+  "description": "<table>\r   <tr>\r     <td>\r       <img src=\"https://github-readme-stats.vercel.app/api?username=adsdouglasduarte&show_icons=true&theme=radical\" alt=\"Ads Douglas Duarte GitHub stats\"/>\r     </td>\r     <td>\r       <img src=\"https://github-readme-stats.vercel.app/api/top-langs/?username=adsdouglasduarte&theme=blue-green\" alt=\"Top Langs\"/>\r     </td>\r   </tr>\r </table>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.6.1"
+  }
+}
