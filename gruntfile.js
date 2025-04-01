@@ -48,7 +48,7 @@ module.exports = function (grunt) {
         files: [
           {
             expand: true,
-            cwd: "assets/img/", // Usar 'assets' para imagens externas
+            cwd: "src/img/", // Usar 'assets' para imagens externas
             src: ["**/*.{png,jpg,gif}"],
             dest: "dist/img/", // Pasta de destino para imagens otimizadas
           },
