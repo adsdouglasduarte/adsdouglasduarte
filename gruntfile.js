@@ -49,7 +49,7 @@ module.exports = function (grunt) {
           {
             expand: true,
             cwd: "src/img/", // Usar 'assets' para imagens externas
-            src: ["**/*.{png,jpg,gif}"],
+            src: ["**/*.{png,jpeg,jpg,gif}"],
             dest: "dist/img/", // Pasta de destino para imagens otimizadas
           },
         ],
@@ -95,7 +95,7 @@ module.exports = function (grunt) {
         },
       },
       images: {
-        files: ["assets/img/**/*.{png,jpg,gif}"], // Continua monitorando 'assets/images'
+        files: ["assets/img/**/*.{png,jpeg,jpg,gif}"], // Continua monitorando 'assets/images'
         tasks: ["imagemin"],
         options: {
           spawn: false,
