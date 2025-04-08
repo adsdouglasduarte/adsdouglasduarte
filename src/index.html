@@ -1,168 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A Forja</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="../dist/css/main.css">
+  @@include("head.html")
 </head>
-
 <body>
-    <header class="container-fluid p-3">
-        <div class="header__logo">
-            <h1>
-                <img src="../dist/img/logo_forja.svg" alt="A forja">
-            </h1>
-            <h2>
-                L 2024 DRAMA <span class="header__logo--h2">RELACIONAMENTO FAMILIARES</span>
-            </h2>
-            <h3>
-                <span class="header__logo--h3">A forja (HBO) :</span>
-                A busca espiritual de um jovem frustrado com sua
-                vida o coloca em um caminho desafiador, guiado por um mentor
-                de sucesso e por sua fé.</p>
-            </h3>
-            <button class="header__logo--btn btn">Assistir Agora</button>
-        </div>
-    </header>
-    <nav class="navbar navbar-expand-lg ">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
-                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon text-white"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <a class="navbar-brand" href="#">Elenco</a>
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Galeria</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Trailer</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-disabled="true">Curiosidades</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <main>
-        <section class="cast">
-            <h2 class="cast__title">Elenco</h2>
-            <div class="container cast__box">
-                <div class="card cast__box--1">
-                    <img src="../dist/img/Aspen Kennedy2.png" class="card-img-top" alt="Aspen Kennedy">
-                    <div class="card-body">
-                        <h5 class="card-title">Aspen Kennedy</h5>
-                        <h6 card-title>Isaiah Wright</h6>
-                        <p class="card-text">Aspen Kennedy nasceu o 16 de janeiro de 1995 em Memphis, Tennessee, EUA. É
-                            ator e produtor, conhecido pelo seu trabalho em Um Dia para Morrer (2022), A Forja: O Poder
-                            da Transformação (2024)</p>
-                        <a href="#" class="btn btn-primary">Saiba mais...</a>
-                    </div>
-                </div>
-                <div class="card cast__box--1">
-                    <img src="../dist/img/Benjamin Watson.jpeg" class="card-img-top" alt="Benjamin Watson">
-                    <div class="card-body">
-                        <h5 class="card-title">Benjamin Watson</h5>
-                        <h6 card-title>Benjamin</h6>
-                        <p class="card-text">Benjamin Watson é um jogador profissional aposentado de futebol americano
-                            estadunidense que atuava como tight end na National Football League. Ele foi campeão pelo
-                            New England Patriots na temporada de 2004.</p>
-                        <a href="#" class="btn btn-primary">Saiba mais...</a>
-                    </div>
-                </div>
-                <div class="card cast__box--1">
-                    <img src="../dist/img/Cameron Arnett.jpeg" class="card-img-top" alt="Cameron Arnett">
-                    <div class="card-body">
-                        <h5 class="card-title">Cameron Arnett</h5>
-                        <h6 card-title>Actor</h6>
-                        <p class="card-text">Cameron Arnett nasceu o 14 de outubro de 1960 em Port-au-Prince, Haiti. É
-                            ator e produtor, conhecido pelo seu trabalho em Saved by Grace (2022), These Stones (2024) e
-                            Jornada nas Estrelas: A Nova Geração (1987)</p>
-                        <a href="#" class="btn btn-primary">Saiba mais...</a>
-                    </div>
-                </div>
-                <div class="card cast__box--1">
-                    <img src="../dist/img/Joseph Callender.jpeg" class="card-img-top" alt="Joseph Callender">
-                    <div class="card-body">
-                        <h5 class="card-title">Joseph Callender</h5>
-                        <h6 card-title>Tim Watson</h6>
-                        <p class="card-text">Aspen Kennedy nasceu o 16 de janeiro de 1995 em Memphis, Tennessee, EUA. É
-                            ator e produtor, conhecido pelo seu trabalho em Um Dia para Morrer (2022), A Forja: O Poder
-                            da Transformação (2024)</p>
-                        <a href="#" class="btn btn-primary">Saiba mais...</a>
-                    </div>
-                </div>
-                <div class="card cast__box--1">
-                    <img src="../dist/img/Karen Abercrombie.jpg" class="card-img-top" alt="Karen Abercrombie">
-                    <div class="card-body">
-                        <h5 class="card-title">Karen Abercrombie</h5>
-                        <h6 card-title>Miss Clara Williams</h6>
-                        <p class="card-text">Karen Abercrombie é uma atriz premiada, cantora-compositora, mestre em
-                            contar histórias oralmente, escritora e produtora. Ela também é ativista e uma ávida
-                            ambientalista. Nascida e criada em Aliquippa, PA, Karen é graduada pela American Academy of
-                            Dramatic Arts em Nova York.</p>
-                        <a href="#" class="btn btn-primary">Saiba mais...</a>
-                    </div>
-                </div>
-                <div class="card cast__box--1">
-                    <img src="../dist/img/Ken Bevel.jpeg" class="card-img-top" alt="Ken Bevel">
-                    <div class="card-body">
-                        <h5 class="card-title">Ken Bevel</h5>
-                        <h6 card-title>James</h6>
-                        <p class="card-text">Kenneth Bevel é um ex-oficial do Corpo de Fuzileiros Navais dos Estados
-                            Unidos, pastor e ator norte-americano. Ele co-estrelou os filmes À Prova de Fogo e
-                            Corajosos. Atualmente, atua como pastor de Conexões e Missões Locais na Igreja Batista de
-                            Sherwood, em Albany, Geórgia.</p>
-                        <a href="#" class="btn btn-primary">Saiba mais...</a>
-                    </div>
-                </div>
-                <div class="card cast__box--1">
-                    <img src="../dist/img/Priscilla Shirer.jpeg" class="card-img-top" alt="Priscilla Shirer">
-                    <div class="card-body">
-                        <h5 class="card-title">Priscilla Shirer</h5>
-                        <h6 card-title>Elizabeth jordan</h6>
-                        <p class="card-text">Priscilla Shirer, nascida em 31 de dezembro de 1974 em Dallas, é uma figura
-                            proeminente no evangelicalismo americano. Ela é reconhecida como evangelista, atriz, autora
-                            e diretora da organização Going Beyond Ministries. Sua influência se estende através de
-                            pregações, livros e filmes. </p>
-                        <a href="#" class="btn btn-primary">Saiba mais...</a>
-                    </div>
-                </div>
-                <div class="card cast__box--1">
-                    <img src="../dist/img/T.C. Stallings.jpeg" class="card-img-top" alt="T.C. Stallings">
-                    <div class="card-body">
-                        <h5 class="card-title">T.C. Stallings</h5>
-                        <h6 card-title>Tony Jordan</h6>
-                        <p class="card-text">T.C. Stallings é um ex-atleta profissional que agora está encontrando
-                            sucesso no cinema e na televisão. Os desejos de T.C. mudaram do futebol para a atuação em
-                            2004, quando ele conseguiu um lugar no King of the Jungle do Animal Planet, um reality show
-                            onde ele emergiu como o campeão da 2ª temporada.</p>
-                        <a href="#" class="btn btn-primary">Saiba mais...</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <article>
-
-        </article>
-
-    </main>
-
-    <footer>
-
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-    </script>
-    <script src="../dist/js/app.min.js"></script>
+  @@include("header.html")
+  @@include("nav.html")
+  <main>
+    @@include("cast.html")
+  </main>
+  <section>
+    @@include("video.html")
+  </section>
+  <aside>
+    @@include("aside.html")
+  </aside>
+  <footer>
+    @@include("footer.html")
+  </footer>
+  @@include("scripts.html")
 </body>
-
 </html>

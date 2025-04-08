@@ -1,133 +1,125 @@
-module.exports = function (grunt) {
-  // Carregar as tarefas do npm
-  grunt.loadNpmTasks("grunt-contrib-cssmin");
-  grunt.loadNpmTasks("grunt-contrib-uglify");
-  grunt.loadNpmTasks("grunt-contrib-imagemin");
-  grunt.loadNpmTasks("grunt-contrib-watch");
-  grunt.loadNpmTasks("grunt-contrib-less");
-  grunt.loadNpmTasks("grunt-contrib-htmlmin");
+const fs = require('fs')
 
-  // Configurar as tarefas
+module.exports = function (grunt) {
+  grunt.loadNpmTasks("grunt-contrib-cssmin")
+  grunt.loadNpmTasks("grunt-contrib-uglify")
+  grunt.loadNpmTasks("grunt-contrib-imagemin")
+  grunt.loadNpmTasks("grunt-contrib-watch")
+  grunt.loadNpmTasks("grunt-contrib-less")
+  grunt.loadNpmTasks("grunt-contrib-htmlmin")
+  grunt.loadNpmTasks("grunt-include-replace")
+
   grunt.initConfig({
-    // Tarefa LESS
     less: {
       development: {
         files: {
-          "dist/css/main.css": "src/less/main.less", // Defina os caminhos dos arquivos LESS
+          "dist/css/main.css": "src/less/main.less",
         },
       },
     },
 
-    // Tarefa de minificação de CSS
     cssmin: {
       target: {
-        files: [
-          {
-            expand: true,
-            cwd: "src/css/", // Alterado para usar o diretório de fontes no src
-            src: ["*.css", "!*.min.css"],
-            dest: "dist/css/", // Pasta de destino dos arquivos minificados
-            ext: ".min.css",
-          },
-        ],
+        files: [{
+          expand: true,
+          cwd: "dist/css/",
+          src: ["*.css", "!*.min.css"],
+          dest: "dist/css/",
+          ext: ".min.css",
+        }],
       },
     },
 
-    // Tarefa de minificação de JavaScript
     uglify: {
       my_target: {
         files: {
-          "dist/js/app.min.js": ["src/js/*.js"], // Alterado para usar o diretório de fontes no src
+          "dist/js/app.min.js": ["src/js/*.js"],
         },
       },
     },
 
-    // Tarefa de otimização de imagens
     imagemin: {
       dynamic: {
-        files: [
-          {
-            expand: true,
-            cwd: "src/img/", // Usar 'assets' para imagens externas
-            src: ["**/*.{png,jpeg,jpg,gif}"],
-            dest: "dist/img/", // Pasta de destino para imagens otimizadas
-          },
-        ],
+        files: [{
+          expand: true,
+          cwd: "src/img/",
+          src: ["**/*.{png,jpeg,jpg,gif}"],
+          dest: "dist/img/",
+        }],
       },
     },
 
-    // Tarefa de minificação de HTML
-    htmlmin: {
-      // Definindo a tarefa de minificação de HTML
+    includereplace: {
       dist: {
-        // O nome da tarefa
         options: {
-          removeComments: true, // Remove comentários
-          collapseWhitespace: true, // Remove espaços em branco
-          minifyJS: true, // Minifica JavaScript no HTML
-          minifyCSS: true, // Minifica CSS no HTML
+          includesDir: "src/partials",
         },
-        files: [
-          {
-            expand: true,
-            cwd: "src/", // Diretório de origem dos arquivos HTML
-            src: ["**/*.html"],
-            dest: "dist/", // Diretório de destino para os arquivos minificados
-          },
-        ],
+        files: [{
+          src: "src/index.html",
+          dest: "dist/index.html",
+        }],
+      },
+    },
+    
+
+
+    htmlmin: {
+      dist: {
+        options: {
+          removeComments: true,
+          collapseWhitespace: true,
+          minifyJS: true,
+          minifyCSS: true,
+        },
+        files: {
+          "dist/index.min.html": "dist/index.html",
+        },
       },
     },
 
-    // Tarefa de monitoramento de mudanças nos arquivos
     watch: {
       css: {
-        files: ["src/css/**/*.css"], // Alterado para monitorar a pasta 'src'
+        files: ["src/css/**/*.css"],
         tasks: ["cssmin"],
-        options: {
-          spawn: false,
-        },
       },
       js: {
-        files: ["src/js/**/*.js"], // Alterado para monitorar a pasta 'src'
+        files: ["src/js/**/*.js"],
         tasks: ["uglify"],
-        options: {
-          spawn: false,
-        },
       },
       images: {
-        files: ["assets/img/**/*.{png,jpeg,jpg,gif}"], // Continua monitorando 'assets/images'
+        files: ["src/img/**/*.{png,jpeg,jpg,gif}"],
         tasks: ["imagemin"],
-        options: {
-          spawn: false,
-        },
       },
       less: {
-        files: ["src/less/**/*.less"], // Alterado para monitorar 'src/less'
-        tasks: ["less"],
+        files: ["src/less/**/*.less"],
+        tasks: ["less", "cssmin", "clean:css"],
       },
       html: {
-        // Monitorando alterações nos arquivos HTML
-        files: ["src/**/*.html"],
-        tasks: ["htmlmin"], // Executa a minificação sempre que houver alterações em HTML
+        files: ["src/**/*.html", "src/partials/**/*.html"],
+        tasks: ["includereplace", "htmlmin", "clean:html"],
       },
     },
-  });
 
-  // Definir a tarefa padrão que será executada ao rodar o comando grunt
+    clean: {
+      css: ["dist/css/*.css", "!dist/css/*.min.css"],
+      html: ["dist/index.html"],
+    },
+  })
+
+  grunt.loadNpmTasks("grunt-contrib-clean")
+
   grunt.registerTask("default", [
+    "less",
     "cssmin",
+    "clean:css",
     "uglify",
     "imagemin",
-    "less",
+    "includereplace",
     "htmlmin",
-  ]);
+    "clean:html"
+  ])
 
-  // Configurar tarefas de build específicas
   grunt.registerTask("build", [
-    "cssmin",
-    "uglify",
-    "imagemin",
-    "less",
-    "htmlmin",
-  ]);
-};
+    "default"
+  ])
+}

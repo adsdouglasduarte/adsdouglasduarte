@@ -1,0 +1,112 @@
+<main>
+        <section class="cast">
+            <h2 class="cast__title">Elenco</h2>
+
+            <div class="container-fluid rellax cast__boxA" data-rellax-speed="1" data-rellax-percentage="0.5">
+                <div class="card cast__box--1">
+                    <img src="../dist/img/Aspen Kennedy2.png" class="card-img-top" alt="Aspen Kennedy">
+                    <div class="card-body">
+                        <h5 class="card-title">Aspen Kennedy</h5>
+                        <h6 card-title>Isaiah Wright</h6>
+                        <p class="card-text">Aspen Kennedy nasceu o 16 de janeiro de 1995 em Memphis, Tennessee, EUA. É
+                            ator e produtor, conhecido pelo seu trabalho em Um Dia para Morrer (2022), A Forja: O Poder
+                            da Transformação (2024)</p>
+                        <a href="#" class="btn btn-primary">Saiba mais...</a>
+                    </div>
+                </div>
+                <div class="card cast__box--1">
+                    <img src="../dist/img/Benjamin Watson.jpeg" class="card-img-top" alt="Benjamin Watson">
+                    <div class="card-body">
+                        <h5 class="card-title">Benjamin Watson</h5>
+                        <h6 card-title>Benjamin</h6>
+                        <p class="card-text">Benjamin Watson é um jogador profissional aposentado de futebol americano
+                            estadunidense que atuava como tight end na National Football League. Ele foi campeão pelo
+                            New England Patriots na temporada de 2004.</p>
+                        <a href="#" class="btn btn-primary">Saiba mais...</a>
+                    </div>
+                </div>
+                <div class="card cast__box--1">
+                    <img src="../dist/img/Cameron Arnett.jpeg" class="card-img-top" alt="Cameron Arnett">
+                    <div class="card-body">
+                        <h5 class="card-title">Cameron Arnett</h5>
+                        <h6 card-title>Actor</h6>
+                        <p class="card-text">Cameron Arnett nasceu o 14 de outubro de 1960 em Port-au-Prince, Haiti. É
+                            ator e produtor, conhecido pelo seu trabalho em Saved by Grace (2022), These Stones (2024) e
+                            Jornada nas Estrelas: A Nova Geração (1987)</p>
+                        <a href="#" class="btn btn-primary">Saiba mais...</a>
+                    </div>
+                </div>
+                <div class="card cast__box--1">
+                    <img src="../dist/img/Joseph Callender.jpeg" class="card-img-top" alt="Joseph Callender">
+                    <div class="card-body">
+                        <h5 class="card-title">Joseph Callender</h5>
+                        <h6 card-title>Tim Watson</h6>
+                        <p class="card-text">Aspen Kennedy nasceu o 16 de janeiro de 1995 em Memphis, Tennessee, EUA. É
+                            ator e produtor, conhecido pelo seu trabalho em Um Dia para Morrer (2022), A Forja: O Poder
+                            da Transformação (2024)</p>
+                        <a href="#" class="btn btn-primary">Saiba mais...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid rellax cast__boxB" data-rellax-speed="1" data-rellax-percentage="0.5">
+                <div class="card cast__box--2">
+                    <img src="../dist/img/Karen Abercrombie.jpg" class="card-img-top" alt="Karen Abercrombie">
+                    <div class="card-body">
+                        <h5 class="card-title">Karen Abercrombie</h5>
+                        <h6 card-title>Miss Clara Williams</h6>
+                        <p class="card-text">Karen Abercrombie é uma atriz premiada, cantora-compositora, mestre em
+                            contar histórias oralmente, escritora e produtora. Ela também é ativista e uma ávida
+                            ambientalista. Nascida e criada em Aliquippa, PA, Karen é graduada pela American Academy
+                            of
+                            Dramatic Arts em Nova York.</p>
+                        <a href="#" class="btn btn-primary">Saiba mais...</a>
+                    </div>
+                </div>
+                <div class="card cast__box--2">
+                    <img src="../dist/img/Ken Bevel.jpeg" class="card-img-top" alt="Ken Bevel">
+                    <div class="card-body">
+                        <h5 class="card-title">Ken Bevel</h5>
+                        <h6 card-title>James</h6>
+                        <p class="card-text">Kenneth Bevel é um ex-oficial do Corpo de Fuzileiros Navais dos Estados
+                            Unidos, pastor e ator norte-americano. Ele co-estrelou os filmes À Prova de Fogo e
+                            Corajosos. Atualmente, atua como pastor de Conexões e Missões Locais na Igreja Batista
+                            de
+                            Sherwood, em Albany, Geórgia.</p>
+                        <a href="#" class="btn btn-primary">Saiba mais...</a>
+                    </div>
+                </div>
+                <div class="card cast__box--2">
+                    <img src="../dist/img/Priscilla Shirer.jpeg" class="card-img-top" alt="Priscilla Shirer">
+                    <div class="card-body">
+                        <h5 class="card-title">Priscilla Shirer</h5>
+                        <h6 card-title>Elizabeth jordan</h6>
+                        <p class="card-text">Priscilla Shirer, nascida em 31 de dezembro de 1974 em Dallas, é uma
+                            figura
+                            proeminente no evangelicalismo americano. Ela é reconhecida como evangelista, atriz,
+                            autora
+                            e diretora da organização Going Beyond Ministries. Sua influência se estende através de
+                            pregações, livros e filmes. </p>
+                        <a href="#" class="btn btn-primary">Saiba mais...</a>
+                    </div>
+                </div>
+                <div class="card cast__box--2">
+                    <img src="../dist/img/T.C. Stallings.jpeg" class="card-img-top" alt="T.C. Stallings">
+                    <div class="card-body">
+                        <h5 class="card-title">T.C. Stallings</h5>
+                        <h6 card-title>Tony Jordan</h6>
+                        <p class="card-text">T.C. Stallings é um ex-atleta profissional que agora está encontrando
+                            sucesso no cinema e na televisão. Os desejos de T.C. mudaram do futebol para a atuação
+                            em
+                            2004, quando ele conseguiu um lugar no King of the Jungle do Animal Planet, um reality
+                            show
+                            onde ele emergiu como o campeão da 2ª temporada.</p>
+                        <a href="#" class="btn btn-primary">Saiba mais...</a>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+
+
+    </main>
