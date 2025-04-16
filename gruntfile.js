@@ -8,6 +8,8 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks("grunt-contrib-less")
   grunt.loadNpmTasks("grunt-contrib-htmlmin")
   grunt.loadNpmTasks("grunt-include-replace")
+  grunt.loadNpmTasks("grunt-contrib-copy")
+  grunt.loadNpmTasks("grunt-contrib-clean")
 
   grunt.initConfig({
     less: {
@@ -60,8 +62,15 @@ module.exports = function (grunt) {
         }],
       },
     },
-    
 
+    copy: {
+      fonts: {
+        expand: true,
+        cwd: 'src/assets/fonts/',
+        src: '**/*',
+        dest: 'dist/fonts/'
+      }
+    },
 
     htmlmin: {
       dist: {
@@ -98,6 +107,10 @@ module.exports = function (grunt) {
         files: ["src/**/*.html", "src/partials/**/*.html"],
         tasks: ["includereplace", "htmlmin", "clean:html"],
       },
+      fonts: {
+        files: ["src/assets/fonts/**/*"],
+        tasks: ["copy"],
+      },
     },
 
     clean: {
@@ -106,20 +119,17 @@ module.exports = function (grunt) {
     },
   })
 
-  grunt.loadNpmTasks("grunt-contrib-clean")
-
   grunt.registerTask("default", [
     "less",
     "cssmin",
     "clean:css",
     "uglify",
     "imagemin",
+    "copy",
     "includereplace",
     "htmlmin",
     "clean:html"
   ])
 
-  grunt.registerTask("build", [
-    "default"
-  ])
+  grunt.registerTask("build", ["default"])
 }

@@ -5,11 +5,23 @@
 @import '_video.less';
 @import '_aside.less';
 @import '_footer.less';
+@import '_mixins.less';
 //evitar o scroll lateral e efeito de suave na pagina
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
+
+@font-face {
+    font-family: 'MIXONE';
+    src: url('MIXONERegular.woff2') format('woff2'),
+        url('MIXONERegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 
 body {
     margin: 0;
