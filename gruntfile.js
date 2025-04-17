@@ -81,7 +81,7 @@ module.exports = function (grunt) {
           minifyCSS: true,
         },
         files: {
-          "dist/index.min.html": "dist/index.html",
+          "dist/index.html": "dist/index.html",
         },
       },
     },
@@ -105,7 +105,7 @@ module.exports = function (grunt) {
       },
       html: {
         files: ["src/**/*.html", "src/partials/**/*.html"],
-        tasks: ["includereplace", "htmlmin", "clean:html"],
+        tasks: ["includereplace", "htmlmin"],
       },
       fonts: {
         files: ["src/assets/fonts/**/*"],
@@ -115,7 +115,6 @@ module.exports = function (grunt) {
 
     clean: {
       css: ["dist/css/*.css", "!dist/css/*.min.css"],
-      html: ["dist/index.html"],
     },
   })
 
@@ -127,8 +126,7 @@ module.exports = function (grunt) {
     "imagemin",
     "copy",
     "includereplace",
-    "htmlmin",
-    "clean:html"
+    "htmlmin"
   ])
 
   grunt.registerTask("build", ["default"])
