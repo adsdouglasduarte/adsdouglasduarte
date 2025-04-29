@@ -1,4 +1,4 @@
-## Olá, Seja bem-vindo! Sou Ads Douglas Duarte. 🧑🏽‍🚀
+## Olá, Seja bem-vindo! Sou Dev Full Stack Douglas Duarte. 🧑🏽‍🚀
 
 <table>
   <tr>
