@@ -1,38 +1,89 @@
-## Olá, Seja bem-vindo! Sou Dev Full Stack Douglas Duarte. 🧑🏽‍🚀
+![](https://komarev.com/ghpvc/?username=adsdouglasduarte&color=006bed)
 
-<table>
-  <tr>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=adsdouglasduarte&show_icons=true&theme=radical" alt="Ads Douglas Duarte GitHub stats"/>
-    </td>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adsdouglasduarte&theme=blue-green" alt="Top Langs"/>
-    </td>
-  </tr>
-</table>
+## 👋 Sobre mim
 
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:adsdouglasduarte@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/douglas-duarte-55048530b)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/qr/OA3P5VRRNOK3O1)
-[![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)](https://planodecarreirasebac.slack.com/team/U0754J5DFPC)
+Sou **Douglas Duarte**, **Desenvolvedor Full Stack** com experiência em desenvolvimento web e integração de sistemas.  
+Atuo criando soluções práticas, focadas em performance, organização de código e resolução de problemas reais.
 
-### Tecnologias que uso no meu dia a dia
+Tenho vivência tanto no **front-end moderno** quanto no **back-end**, além de experiência com automações e serviços para monitoramento e infraestrutura.
 
-<div style="display: inline_block"><br/>
-  <img align="center" alt="html5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-  <img align="center" alt="css3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-  <img align="center" alt="javascript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-  <img align="center" alt="python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-  <img align="center" alt="sass" src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white">
-  <img align="center" alt="git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
-</div><br/>
+- 💼 Analista de Sistemas  
+- 🚀 Desenvolvedor Full Stack  
+- 🌱 Estudando e aplicando boas práticas com **JavaScript moderno, TypeScript e Vue.js**
 
-### Em tecnologia, o aprendizado é constante. Cada novo desafio é uma oportunidade para crescer e construir soluções melhores.
+---
 
-### Últimos Projetos
+## 🛠️ Minhas Skills
 
-1. [Power Plus Life](https://powerpluslife.vercel.app/)
-2. [Rotas Relatos](https://rotas-relatos.vercel.app/)
-3. [Ana e Manu Confeitaria](https://anaemanuconfeitaria.vercel.app/)
+### 💻 Aplicações e Dados
+
+![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
+![TypeScript](https://img.shields.io/badge/-TypeScript-333333?style=flat&logo=typescript)
+![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5)
+![CSS3](https://img.shields.io/badge/-CSS3-333333?style=flat&logo=CSS3&logoColor=1572B6)
+![Sass](https://img.shields.io/badge/-Sass-333333?style=flat&logo=sass)
+![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python)
+
+![Vue.js](https://img.shields.io/badge/-Vue.js-333333?style=flat&logo=vue.js)
+![Flask](https://img.shields.io/badge/-Flask-333333?style=flat&logo=flask)
+
+---
+
+### ⚙️ Conceitos e Práticas
+
+- Programação Orientada a Objetos (POO)
+- Recursos modernos do **ES6+**
+- Consumo de APIs REST
+- Versionamento de código
+- Organização e padronização de projetos
+
+---
+
+### 🔧 Utilidades
+
+![Postman](https://img.shields.io/badge/-Postman-333333?style=flat&logo=postman)
+![Insomnia](https://img.shields.io/badge/-Insomnia-333333?style=flat&logo=insomnia)
+
+---
+
+### 🧪 DevOps / Versionamento
+
+![Git](https://img.shields.io/badge/-Git-333333?style=flat&logo=git)
+![GitHub](https://img.shields.io/badge/-GitHub-333333?style=flat&logo=github)
+![Docker](https://img.shields.io/badge/-Docker-333333?style=flat&logo=docker)
+
+---
+
+### 🧰 Ferramentas de Desenvolvimento
+
+![Visual Studio Code](https://img.shields.io/badge/-VS%20Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)
+![Figma](https://img.shields.io/badge/-Figma-333333?style=flat&logo=figma)
+
+---
+
+## 🌐 Projetos Reais
+
+- 🔗 **https://summertf.com.br**  
+- 🔗 **https://riofibras.com.br**  
+- 🔗 **https://project-forja.vercel.app/**
+- 🔗 **https://my-birthday-tawny.vercel.app/**
+- 🔗 **https://anaemanuconfeitaria.vercel.app/**
+
+---
+
+## 📊 GitHub Stats
+
+<a href="https://github.com/adsdouglasduarte">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=adsdouglasduarte&theme=dracula&show_icons=true" />
+</a>
+
+---
+
+## 📫 Onde me encontrar
+
+[![LinkedIn](https://img.shields.io/badge/-Douglas%20Duarte-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/ads-douglas-duarte/)
+[![Gmail](https://img.shields.io/badge/-adsdouglasduarte@gmail.com-006bed?style=flat-square&logo=Gmail&logoColor=white)](mailto:adsdouglasduarte@gmail.com)
+[![GitHub](https://img.shields.io/github/followers/adsdouglasduarte?label=follow&style=social)](https://github.com/adsdouglasduarte)
+
 
 
