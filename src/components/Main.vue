@@ -10,7 +10,6 @@
       <div class="card mt-5">
         <div class="card-body">
           <main>
-            <!--card resultado-->
             <div class="result-card">
               <h2 class="text-center">Resultado: {{ result ?? '-' }}</h2>
             </div>
