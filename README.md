@@ -73,9 +73,9 @@ Tenho vivência tanto no **front-end moderno** quanto no **back-end**, além de 
 
 ## 📊 GitHub Stats
 
-<a href="https://github.com/adsdouglasduarte">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=adsdouglasduarte&theme=dracula&show_icons=true" />
-</a>
+![Douglas GitHub Stats](https://github-readme-stats.vercel.app/api?username=adsdouglasduarte&show_icons=true&theme=dracula)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=adsdouglasduarte&layout=compact&theme=dracula)
+
 
 ---
 
